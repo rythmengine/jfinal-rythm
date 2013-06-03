@@ -1,0 +1,5 @@
+JFinal Rythm Sample Applications
+Copyright 2013-2023 Gelin Luo (greenlaw110(at)gmail.com)
+
+JFinal-BBS:
+https://github.com/greenlaw110/jfinal-bbs

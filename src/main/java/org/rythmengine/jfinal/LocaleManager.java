@@ -81,7 +81,6 @@ public class LocaleManager implements Interceptor {
             }
             // finally try http header
             loc = req.getLocale();
-            sess.setAttribute(sessName, loc);
             return loc;
         }
 

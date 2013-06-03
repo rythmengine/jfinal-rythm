@@ -50,6 +50,7 @@ public class RythmPlugin implements IPlugin {
 
     private Map conf;
     private RythmEngine engine;
+    private boolean i18n;
 
     @Override
     public boolean start() {
@@ -72,7 +73,7 @@ public class RythmPlugin implements IPlugin {
             }
         });
         if (conf.containsKey("rythm.i18n.enabled")) {
-            boolean i18n = Boolean.parseBoolean(conf.get("rythm.i18n.enabled").toString());
+            i18n = Boolean.parseBoolean(conf.get("rythm.i18n.enabled").toString());
             if (i18n) {
                 Config.getInterceptors().add(new LocaleManager());
                 Object o = conf.get("rythm.i18n.param_name"); 
@@ -92,6 +93,9 @@ public class RythmPlugin implements IPlugin {
     }
     
     public void render(String view, HttpServletRequest req, HttpServletResponse res) {
+        if (i18n) {
+            engine.prepare(LocaleManager.getLocale());
+        }
         ITemplate template = engine.getTemplate(view);
         for (Enumeration<String> e = req.getAttributeNames();e.hasMoreElements();) {
             String k = e.nextElement();
