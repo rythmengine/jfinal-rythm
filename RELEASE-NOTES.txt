@@ -1,0 +1,15 @@
+
+                            JFinal Rythm
+                            Version R1.0
+                            Release Notes
+
+
+INTRODUCTION:
+
+This document contains the release notes for the 1.0 version of JFinal Rythm Plugin.
+
+The project is hosted at https://github.com/greenlaw110/jfinal-rythm/. For issues resolved
+in the first release, please check out 
+https://github.com/greenlaw110/jfinal-rythm/issues?state=closed.
+
+The project web site is http://rythmengine.org/jfinal

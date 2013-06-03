@@ -1,4 +1,8 @@
-jfinal-rythm
-============
+JFinal-Rythm
+=============
 
-Enable JFinal application to use Rythm template engine
+Enable JFinal user to use Rythm (https://github.com/greenlaw110/rythm) template engine to render views.
+
+Usage:
+
+TODO

@@ -1,0 +1,5 @@
+JFinal Rythm
+Copyright 2013-2023 Gelin Luo (greenlaw110(at)gmail.com)
+
+This product includes software developed by
+Gelin Luo (http://www.linkedin.com/in/greenlaw110)
