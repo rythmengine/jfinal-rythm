@@ -5,6 +5,8 @@ Enable JFinal user to use Rythm (https://github.com/greenlaw110/rythm) template 
 
 Usage:
 
+In your Java source file
+
 1. Load configuration from your properties file
 
 ```lang-java
@@ -13,7 +15,7 @@ public void configConstant(Constants me) {
 }
 ```
 
-1. Enable Rythm
+2. Enable Rythm
 
 Config RythmPlugin in your configPlugin method using the configuration loaded in the above step:
 
@@ -24,15 +26,16 @@ public void configPlugin(Plugins me) {
 } 
 ```
 
-3. Configure template home in your properties file:
+In your properties file:
+
+1. Configure template home in your properties file:
 
 ```
+# this set the template home to WEB-INF/rythm folder
 rythm.home.template=../rythm
 ```
 
-In the above configuration, the template home is set to WEB-INF/rythm
-
-4. Enable i18n if needed in your properties file:
+2. Enable i18n if needed in your properties file:
 
 ```
 rythm.i18n.enabled=true
