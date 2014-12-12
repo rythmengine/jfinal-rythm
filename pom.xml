@@ -13,6 +13,11 @@
   ~ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
   ~ License for the specific language governing permissions and limitations
   ~ under the License.
+  
+  == Version history ==
+  
+  1.0.1 - update Rythm version to 1.1.0-SNAPSHOT
+        - update jfinal version to 1.9
   -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
@@ -21,7 +26,7 @@
     <groupId>org.rythmengine</groupId>
     <artifactId>jfinal-rythm</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>JFinal Rythm Plugin</name>
     <description>Enable JFinal Application Developer to use Rythm Template Engine to render views</description>
@@ -90,12 +95,12 @@
         <dependency>
             <groupId>org.rythmengine</groupId>
             <artifactId>rythm-engine</artifactId>
-            <version>1.0-b10-SNAPSHOT</version>
+            <version>1.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.jfinal</groupId>
             <artifactId>jfinal</artifactId>
-            <version>1.4</version>
+            <version>1.9</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
